@@ -1,0 +1,19 @@
+div {
+    width: 100%;
+    div {
+        margin: 1.2rem;
+        width: 20rem;
+        label {
+            text-decoration: bold;
+            font-size: large;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        input {
+            width: 10rem;
+            text-align: center;
+        }
+        input:invalid {
+            border: 2px dashed red;
+        }
+    }
+}
